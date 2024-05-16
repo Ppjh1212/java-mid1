@@ -9,5 +9,6 @@ public class ObjectMain {
 
         //toString()은 Object클래스의 메서드
         String string = child.toString();
+        System.out.println(string);
     }
 }
