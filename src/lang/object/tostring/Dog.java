@@ -1,4 +1,4 @@
-package lang.tostring;
+package lang.object.tostring;
 
 public class Dog extends Object{
 
