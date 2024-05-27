@@ -15,7 +15,10 @@ public class MemberMainV1 {
         //회원B 주소 변경
         Address address1 = memberB.getAddress();
         address1.setValue("부산");
+        //memberB.getAddress().setValue("부산");
 
-        memberB.getAddress().setValue("부산");
+        System.out.println("memberA = " + memberA);
+        System.out.println("memberB = " + memberB);
+
     }
 }
